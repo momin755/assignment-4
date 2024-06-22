@@ -246,7 +246,73 @@ footer p{
 
 
 @media only screen and (max-width: 688px) {
+    .main-header {
+        align-items: center;
+        flex-direction: column;
+    }
+    .head-menu>nav ul li {
+        margin: 0 6px;
+    }
+    .main-banner {
+        padding-bottom:0px;
+    }
+    .banner {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-text {
+        max-width: 100%;
+    }
+    .banner-image {
+        max-width: 100%;
+        margin-top: 38px;
+    }
+    .banner-text h2 {
+        font-size: 23px;
+    }
+    .banner-text p {
+        font-size: 16px;
+    }
+    .banner-text a {
+        font-size: 11px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img {
+        width: 50%;
+        margin: 20px 0;
+    }
     .card-style {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .see {
+        text-align: center;
+    }
+    .second-banner {
+        padding: 0;
+    }
+    .banners {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-banner-image {
+        max-width: 100%;
+    }
+    .sec-banner-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .sec-banner-text h2 {
+        font-size: 28px;
+    }
+    .sec-banner-text p {
+        max-width: 100%;
+        text-align: justify;
     }
 }
