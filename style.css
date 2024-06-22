@@ -242,3 +242,14 @@ footer p{
     margin: 20px 0;
     font-weight: 600;
 }
+
+
+/*-------------------------------------
+
+Mobile Devices Only
+
+----------------------------------------- */
+
+@media only screen and (max-width:688px) {
+    
+}
