@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#fcf9f9;
+    font-family: poppins;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+/* ---------------------
+Header Style CSS
+------------------------- */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.head-link{}
+.head-link a{
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #e55039;
+}
+.text-col{
+    color: #eb2f06;
+    font-weight: 800;
+}
+
+.head-menu{}
+.head-menu>nav ul{
+    display: flex;
+}
+.head-menu>nav ul li{
+    list-style: none;
+    margin: 0 1.2em;
+}
+.head-menu>nav ul li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+}
+.head-menu>nav ul li a:hover{
+    color: #eb2f06;
+    transition: color .4s;
+}
+
+
+/* ----------------
+Banner Style CSS
+-------------------- */
+.main-banner{
+    padding: 80px 0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{
+    max-width: 45%;
+}
+.banner-text h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-text p{
+    font-size: 16px;
+    max-width: 85%;
+    margin: 17px 0;
+    margin-bottom: 30px;
+    line-height: 31px;
+}
+.banner-text a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    background: #e55039;
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner-text a:hover{
+    background: #eb2f06;
+    transition: background .4s linear;
+}
+.banner-image{
+    max-width: 55%;
+}
+.banner-image img{
+    width: 100%;
+    overflow: hidden;
+}
+.banner-image img:hover{
+    transform: scale(1.2);
+    transition: transform .4s;
+}
+
+/*---------------------
+ Logo Style CSS
+------------------- */
+.logo-section{
+    padding-bottom: 80px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.card-design{
+    margin-bottom: 70px;
+}
+.card-design h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.see{
+    text-align: right;
+}
+.see>a{
+    color: #eb2f06;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.card-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.card{
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.281);
+    padding: 20px;
+}
+.card-img{
+   overflow: hidden;
+}
+.card-img>img{
+    width: 100%;
+    
+}
+.card-img:hover img{
+    transform: rotate(50deg) scale(1.2);
+    transition: transform .4s;
+}
+
+.card-details h3{
+    margin: 20px 0;
+}
+.card-details h5> i{
+    color: #ff6347;
+}
+.card-details h4{
+    margin: 10px 0;
+}
+
+
+/*---------------
+Second Banner Style
+------------------ */
+.second-banner{
+    padding: 80px 0;
+}
+.banners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 70px;
+}
+.sec-banner-image{
+    max-width: 40%;
+    overflow: hidden;
+}
+.sec-banner-image img{
+    width: 100%;
+    overflow: hidden;
+}
+.sec-banner-image img:hover{
+    transform: scale(1.2);
+    transition: transform .4s;
+}
+
+.sec-banner-text{
+    max-width: 60%;
+}
+.sec-banner-text2{
+    color: #eb2f06;
+}
+.sec-banner-text h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.sec-banner-text p::first-letter{
+    color: #eb2f06;
+    font-size:55px;
+    font-weight: 600;
+}
+.sec-banner-text p{
+    font-size: 16px;
+    max-width: 85%;
+    margin: 17px 0;
+    margin-bottom: 30px;
+    line-height: 31px;
+}
+.sec-banner-text a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    background: #e55039;
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.sec-banner-text a:hover{
+    background: #eb2f06;
+    transition: background .4s linear;
+}
+
+/*-----------------
+ Footer Style CSS
+---------------- */
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
